@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table>
+        <caption>Biodata</caption>
+        <thead>
+        <tr>
+            <th>name</th>
+            <th>Surname</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>Umang</td>
+            <td>Singh</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>vansh</td>
+            <td>garg</td>
+            <td>17</td>
+        </tr>
+        </thead>
+        <tfoot>This is table footer</tfoot>
+
+    </table>
+    <table>
+        <caption>Biodata</caption>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Umang</td>
+            <td>Singh</td>
+            <td>18</td>
+        </tr>
+    </table>
+    <table border="1" cellpadding="15" cellspacing="0">
+        <tr>
+            <th rowspan="3">April</th>
+            <td>abc</td>
+            <td>xyz</td>
+        </tr>
+        <tr>
+            <td>Umang</td>
+            <td>Singh</td>
+        </tr>
+         <tr>
+            <td>vansh</td>
+            <td>garg</td>
+        </tr>
+    </table>
+    <table border="1">
+        <caption>Nested table</caption>
+        <tr>
+            <td rowspan="4">Main table row 1 coumn 1</td>
+            <td>
+                <table border="1">
+                    <caption>Main table column 2</caption>
+                    <tr>
+                        <td>iner table row 1 column 1</td>
+                        <td>inner table row 1 column 2</td>
+
+                    </tr>
+                    <tr>
+                        <td>iner table row 2 column 1</td>
+                        <td>inner table row 2 column 2</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>iner table row 3 column 1</td>
+                        <td>inner table row 3 column 2</td>
+                        
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
